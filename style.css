@@ -1,0 +1,125 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(32, 24, 46);
+}
+
+nav{
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+  padding: 0px 100px;
+  position: center;
+  background-image: linear-gradient(#966bfb,#2c1249);
+
+}
+
+nav ul{
+  float: center;
+}
+
+nav li{
+  display: inline-block;
+  list-style: none;
+}
+
+nav li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 0px 30px;
+  color: rgb(10, 10, 15);
+}
+
+nav li a:hover{
+  color:rgb(225, 56, 237);
+}
+
+.main-content{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 30px;
+  color: antiquewhite;
+
+}
+
+.button {
+  background-color:#c4c1c3;
+border: solid transparent;
+border-radius: 30px 15px 30px;
+box-sizing: border-box;
+font-size: 12px;
+padding: 13px 16px;
+text-align: center;
+margin:2% 46%;
+display: inline;
+vertical-align: middle;
+width: 10%;
+cursor: pointer;
+}
+.button {
+transition-duration: 0.4s;
+}
+.button1:hover {
+  background-color: #f306e7;
+  color: white;
+}
+
+.avatar {
+  border-radius: 50%;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px; 
+  color: antiquewhite;
+}
+h3,h4,p{
+  padding: 3%;
+  color: antiquewhite;
+}
+#about, #design-box, #testimonials{
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+
+}
+.mainbox, .text-box{
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 2%;
+  border: 1px solid#deeff4;
+  justify-content: space-between;
+}
+
+.work, .launch{
+  margin-top: 15px;
+  text-align: center;
+  color: antiquewhite;
+
+}
+.paragraph{
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.box{
+  float: left;
+  text-align: center;
+  width: 15.33%;
+  padding: 2%;
+  border: 1px solid#deeff4;
+  justify-content: space-between;
+  color: solid#deeff4;
+}
+
+.footer{
+  padding-left: 55%;
+  padding-top: 30%;
+}
+.footer1{
+  padding-left: 55%;
+  padding-top: 20%;
+}
